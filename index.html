@@ -23,6 +23,21 @@
         line-height: 1.4;
       }
 
+      h4 {
+        font-size: 16px;
+        margin: 0;
+      }
+
+      hr {
+        border: 0;
+        border-top: 1px solid #bbb;
+        margin: 14px 0;
+      }
+
+      p {
+        margin: 8px 0 16px;
+      }
+
       /* Header Customization */
       .header {
         width: 100%;
@@ -43,6 +58,7 @@
       .section {
         width: 100%;
         border-collapse: collapse;
+        margin-top: 15px;
       }
 
       .section td {
@@ -82,6 +98,8 @@
         </table>
        </header>
 
+       <hr>
+
        <!-- Profile Description -->
       <section>
         <table class="section">
@@ -98,42 +116,58 @@
         </table>
       </section>
 
+      <hr>
+
       <!-- Education -->
        <section>
         <table class="section">
-          <td class="label">
-            Education
-          </td>
+          <tr>
+            <!-- Label -->
+            <td class="label">
+              Education
+            </td>
+            <!-- Content -->
+            <td>
+              <div>
+                <h4>Technical University of Moldova / BS in Software Engineering</h4>
+                <div style="font-size: 14px;">Sep 2023 – Present</div>
+                <p>
+                  One of my favorite courses was Multimedia Technologies, where I explored game development using Godot.
+                  I particularly enjoyed creating interactive games, including a project inspired by Conway’s Game of Life,
+                  which combined logic, creativity, and sound.
+                </p>
+              </div>
 
-          <td>
-            <div>
-              <h4>Technical University of Moldova / BS in Software Engineering</h4>
-              <p>
-                One of my favorite courses was Multimedia Technologies, where I explored game development using Godot.
-                I particularly enjoyed creating interactive games, including a project inspired by Conway’s Game of Life,
-                which combined logic, creativity, and sound.
-              </p>
-            </div>
+              <hr>
 
-            <div>
-              <h4>Polytechnic Institute of Braganca / Erasmus+ Exchange Semester</h4>
-              <p>
-                One of the most meaningful academic experiences of my studies, the Erasmus+ exchange allowed me to step
-                out of my comfort zone, gain independence, and collaborate with international students, resulting in
-                lasting friendships and personal growth.
-              </p>
-            </div>
+              <div>
+                <h4>Polytechnic Institute of Braganca / Erasmus+ Exchange Semester</h4>
+                <div style="font-size: 14px;">Sep 2024 – February 2025</div>
+                <p>
+                  One of the most meaningful academic experiences of my studies, the Erasmus+ exchange allowed me to step
+                  out of my comfort zone, gain independence, and collaborate with international students, resulting in
+                  lasting friendships and personal growth.
+                </p>
+              </div>
 
-            <div>
-              <h4>Theoretical Lyceum "Mihail Sadoveanu", Hîncești</h4>
-              <p>
-                During high school, I developed a strong interest in science, particularly biology, chemistry, and physics.
-                This passion led me to achieve first place at the National Biology Olympiad in my final year.
-              </p>
-            </div>
-          </td>
+              <hr>
+
+              <div>
+                <h4>Theoretical Lyceum "Mihail Sadoveanu", Hîncești</h4>
+                <div style="font-size: 14px;">Class of 2023</div>
+                <p>
+                  During high school, I developed a strong interest in science, particularly biology, chemistry, and physics.
+                  This passion led me to achieve first place at the National Biology Olympiad in my final year.
+                </p>
+              </div>
+            </td>
+          </tr>
         </table>
        </section>
+
+       <hr>
+
+
     </main>
   </body>
 </html>
