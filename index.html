@@ -38,6 +38,24 @@
         text-align: right;
         font-size: 14px;
       }
+
+      /* Section Layout Customization*/
+      .section {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .section td {
+        padding: 8px 6px;
+        vertical-align: top;
+      }
+
+      .section .label {
+        width: 160px;
+        font-weight: bold;
+        font-size: 20px;
+        white-space: nowrap;
+      }
     </style>
   </head>
 
@@ -66,17 +84,17 @@
 
        <!-- Profile Description -->
       <section>
-        <table>
+        <table class="section">
           <tr>
-            <td>
+            <!-- Profile/Description Label -->
+            <td class="label">
               Profile
             </td>
-
+            <!-- Content -->
             <td>
               I’m an aspiring software engineer transitioning toward .NET development, with prior experience in Python and Django REST Framework. I’m passionate about building scalable backend systems and strengthening my skills in modern .NET technologies.
             </td>
           </tr>
-
         </table>
       </section>
     </main>
