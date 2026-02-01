@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Patricia Moraru" />
     <title>Patricia Moraru - CV/Resume</title>
 
     <!-- Fonst for Pixel Style -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
 
     <style>
       /* Body Customization */
@@ -19,7 +21,7 @@
         display: flex;
         justify-content: center;
         padding: 25px;
-        font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        font-family: 'Space Grotesk', system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
       }
 
       /* Center Alignmnet */
@@ -35,6 +37,17 @@
 
       .pixel-font {
         font-family: 'Press Start 2P', system-ui, sans-serif;
+      }
+
+      .pixel-badge {
+        display: inline-block;
+        padding: 20px 20px;
+        background: #fff7cf;
+        border: 3px solid #1a1333;
+        box-shadow: 2px 2px 0 #1a1333;
+        font-size: 15px;
+        margin-bottom: 14px;
+        letter-spacing: 0.4px;
       }
 
       h1 {
@@ -72,6 +85,15 @@
       .contact {
         text-align: right;
         font-size: 14px;
+      }
+
+      .contact a {
+        color: #57595d;
+        text-decoration: none;
+      }
+
+      .contact a:hover {
+        text-decoration: underline;
       }
 
       /* Section Layout Customization*/
@@ -121,8 +143,12 @@
           <tr>
             <!-- Name, Surname -->
             <td>
-              <h1 class="pixel-font">Patricia Moraru</h1>
-              <div>Software Engineer / Student</div>
+              <div class="pixel-badge">
+                <div> 
+                  <h1 class="pixel-font">Patricia Moraru</h1>
+                </div>
+                <div>Software Engineer / Student</div>
+              </div>
             </td>
             <!-- Contact Information -->
             <td class="contact">
@@ -228,7 +254,7 @@
             <!-- Content -->
             <td>
               <div>
-                <h4>Technical University of Moldova / BS in Software Engineering</h4>
+                <h4>Technical University of Moldova - BS in Software Engineering</h4>
                 <div style="font-size: 14px;">Sep 2023 – Present</div>
                 <p>
                   One of my favorite courses was Multimedia Technologies, where I explored game development using Godot.
@@ -240,7 +266,7 @@
               <hr>
 
               <div>
-                <h4>Polytechnic Institute of Braganca / Erasmus+ Exchange Semester</h4>
+                <h4>Polytechnic Institute of Braganca - Erasmus+ Exchange Semester</h4>
                 <div style="font-size: 14px;">Sep 2024 – February 2025</div>
                 <p>
                   One of the most meaningful academic experiences of my studies, the Erasmus+ exchange allowed me to step
